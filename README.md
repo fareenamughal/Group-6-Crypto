@@ -10,7 +10,7 @@ Top 3 or 5
 Historical prices
 Future price prediction
 Corelation with S&P 500 or any other variables?
-Predicting volatility of Crypto vs S&P 500 ?
+Predicting volatility of Crypto vs S&P 500?
 Question for the project : what should one invest in crypto (BTC, another coin) or S&P - (TBD)
 
 
@@ -32,7 +32,9 @@ Actions -
 
 ### Meeting #2 - Date: 2023.01.18
 #### Questions:
+* Should we invest in crypto or S&P500
 * Do we need to host the database on AWS or on PosgreSQL?
+* Time Series Model to Predict future prices for Bitcoin and/or for S&P 500.
 
 #### Notes:
 * Pulling 5 years worth of data from Yahoo finance to meet the 1K rows (2015-2020 full years) from both datasets
@@ -41,9 +43,19 @@ Actions -
   * Open Price
   * Volume (to round up for Bitcoin dataset)
   * Volatility (calculated column in both dataset)
+* To calculate volatility - https://corporatefinanceinstitute.com/resources/wealth-management/volatility-vol/
+* Models: ARIMA, SARIMA, LSTM
 
 #### Actions:
 * Reasons why we chose selected topic.
+* We need an ERD diagram - Kirti
+* We need a write up for the questions - Hitha
+* Scrape csv from Yahoo - Emerset
+
+Potential Summary Reflection:
+Our goal is to present to the end user the data that shows the differences between crypto and S&P500 in order for them to make an informed decision for their investments.
+
+
 
 
 
