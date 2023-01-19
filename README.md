@@ -45,7 +45,8 @@ Actions -
   * Volatility (calculated column in both dataset)
 * To calculate volatility - https://corporatefinanceinstitute.com/resources/wealth-management/volatility-vol/
 * Models: ARIMA, SARIMA, LSTM
-* BTC, ETH, BNB, ADA, DOGE
+* Top 5 Crypto - BTC, ETH, BNB, ADA, DOGE
+* Top 5 S&P 500 -Apple Inc. (AAPL), Microsoft Corp. (MSFT), Amazon.com, Inc. ( AMZN), Tesla, Inc. (TSLA), Nvidia Corp. (NVDA)
 
 #### Actions:
 * Reasons why we chose selected topic.
