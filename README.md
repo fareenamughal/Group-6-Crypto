@@ -45,6 +45,7 @@ Actions -
   * Volatility (calculated column in both dataset)
 * To calculate volatility - https://corporatefinanceinstitute.com/resources/wealth-management/volatility-vol/
 * Models: ARIMA, SARIMA, LSTM
+* BTC, ETH, BNB, ADA, DOGE
 
 #### Actions:
 * Reasons why we chose selected topic.
@@ -55,6 +56,7 @@ Actions -
 Potential Summary Reflection:
 Our goal is to present to the end user the data that shows the differences between crypto and S&P500 in order for them to make an informed decision for their investments.
 
+Meeting 3 - Sat 21st Jan 10am
 
 
 
