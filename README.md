@@ -27,3 +27,27 @@ Actions -
 2. Check any policy/ ethics or any disclaimers for using data from yahoo finance?
 3. ERD diagram
 4. Time frame for the study? how far back? and how far into the future? or a date range by user? TBD
+
+
+
+### Meeting #2 - Date: 2023.01.18
+#### Questions:
+* Do we need to host the database on AWS or on PosgreSQL?
+
+#### Notes:
+* Pulling 5 years worth of data from Yahoo finance to meet the 1K rows (2015-2020 full years) from both datasets
+* Columns that will be used for both tables:  
+  * Date
+  * Open Price
+  * Volume (to round up for Bitcoin dataset)
+  * Volatility (calculated column in both dataset)
+
+#### Actions:
+* Reasons why we chose selected topic.
+
+
+
+
+
+
+
