@@ -1,0 +1,56 @@
+2023.01.17
+
+Fareena, Emerset, Kirti and Hitha
+
+Top 3 or 5
+Historical prices
+Future price prediction
+Corelation with S&P 500 or any other variables?
+Predicting volatility of Crypto vs S&P 500?
+Question for the project : what should one invest in crypto (BTC, another coin) or S&P - (TBD)
+
+
+Dataset -
+
+https://www.kaggle.com/datasets/sudalairajkumar/cryptocurrency-historical-prices-coingecko?select=algorand.csv
+
+https://finance.yahoo.com/quote/%5EGSPC/history?period1=1577836800&period2=1673913600&interval=1d&filter=history&frequency=1d&includeAdjustedClose=true
+
+
+Actions -
+
+1. Yahoo dataset needs to be scraped.
+2. Check any policy/ ethics or any disclaimers for using data from yahoo finance?
+3. ERD diagram
+4. Time frame for the study? how far back? and how far into the future? or a date range by user? TBD
+
+
+2023.01.18
+
+Further discussion about Project idea, with follwing questions-
+- Should we invest in crypto or S&P500
+- Do we need to host the database on AWS or on PosgreSQL?
+- Time Series Model to Predict future prices for Bitcoin and/or for S&P 500.
+
+Dataset plans-
+
+1. Pulling 5 years worth of data from Yahoo finance to meet the 1K rows (2015-2020 full years) from both datasets
+2. Columns that will be used for both tables:  
+  * Date
+  * Open Price
+  * Volume (to round up for Bitcoin dataset)
+  * Volatility (calculated column in both dataset)
+3. To calculate volatility - https://corporatefinanceinstitute.com/resources/wealth-management/volatility-vol/
+4. Models: ARIMA, SARIMA, LSTM
+5. Top 5 Crypto - BTC, ETH, BNB, ADA, DOGE
+6. Top 5 S&P 500 -Apple Inc. (AAPL), Microsoft Corp. (MSFT), Amazon.com, Inc. ( AMZN), Tesla, Inc. (TSLA), Nvidia Corp. (NVDA)
+
+Actions -
+
+1. Reasons why we chose selected topic.
+2. We need an ERD diagram - Kirti (completed)
+3. We need a write up for the questions - Hitha (completed)
+4. Scrape csv from Yahoo - Emerset (completed)
+
+Potential Summary Reflection:
+Our goal is to present to the end user the data that shows the differences between crypto and S&P500 in order for them to make an informed decision for their investments.
