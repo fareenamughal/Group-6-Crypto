@@ -26,7 +26,7 @@ The 5 S&P 500 used in the analysis are -
 4. Tesla, Inc. (TSLA)
 5. Nvidia Corp. (NVDA)
 
-We will use historical data on the prices of the top 5 cryptocurrencies and the top 5 companies in the S&P 500 to calculate their volatility. We will use standard deviation as a measure of volatility and compare the results between the two asset classes. We will also use charts to visually represent the volatility of each asset over time.
+We will use historical data on the prices of the top 5 cryptocurrencies and the top 5 companies in the S&P 500 to calculate their volatility. Standard deviation will be used as a measure of volatility and compare the results between the two asset classes. We will also use charts to visually represent the volatility of each asset over time.
 
 # Purpose of the Project
 The purpose of this analysis is to compare the performance of the top 5 cryptocurrencies with that of the top 5 companies in the S&P 500, specifically focusing on their volatility. Cryptocurrencies have gained popularity in recent years as an alternative investment option to traditional stocks. This analysis aims to evaluate the risk and potential returns of investing in these two different asset classes.
