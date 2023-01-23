@@ -3,6 +3,7 @@
 # Cryptocurrency vs S&P 500 Analysis
 Use machine learning, Python, and Tableau to analyze and predict top 5 cryptocurrencies with top 5 S&P500.
 
+# Team - Fareena Mughal, Emerset Farquharson, Kirti Henry and Hitha Das.
 
 # Project Dashboard -TBD
 
