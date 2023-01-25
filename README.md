@@ -73,12 +73,17 @@ We exported both dataframes as CSV files, that we used pgAdmin to store the data
 2. S&P 500 Table  
 ![S&P 500 SQL Table](Images/sp500_sql_db.PNG)
 
+#### <ins>Questions we plan to answer with the project</ins>  
+1. Using a calculated measurement like Volatility, we want to show how high or low risk the stocks are.
+2. Is there any correlation between the stock market and cryptocurrencies?
+3. Using a regression machine learning model, we want to predict the prices of crypto or stock in the next X time.
+
 ## Dashboard
 We will utilize Tableau to present data in the form of graphs, charts, and a narrative format, allowing viewers to interact with the information by selecting options via drop-down menus within Tableau.
 
 <img width="596" alt="Screen Shot 2023-01-24 at 9 27 34 PM" src="https://user-images.githubusercontent.com/110873947/214473612-77d7185c-5ba4-40d2-a4d4-54289ff6b03c.png">
 
-Following are some sample charts with metrics and visualizations we aim to show in our presentation -
+Following are some sample charts with metrics and visualizations we aim to show in our final presentation -
 
 <img width="713" alt="Visualization - Price and Volume" src="https://user-images.githubusercontent.com/110873947/214473894-026d6f71-0ead-4423-94ba-37216b903049.png">
 
