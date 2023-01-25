@@ -3,7 +3,7 @@
 # Cryptocurrency vs S&P 500 Analysis
 Use machine learning, Python, and Tableau to analyze and predict top 5 cryptocurrencies with top 5 S&P500.
 
-# Team - Fareena Mughal, Emerset Farquharson, Kirti Henry and Hitha Das.
+Team - Fareena Mughal, Emerset Farquharson, Kirti Henry and Hitha Das.
 
 # Project Dashboard -TBD
 
@@ -33,13 +33,21 @@ We will use historical data on the prices of the top 5 cryptocurrencies and the 
 The purpose of this analysis is to compare the performance of the top 5 cryptocurrencies with that of the top 5 companies in the S&P 500, specifically focusing on their volatility. Cryptocurrencies have gained popularity in recent years as an alternative investment option to traditional stocks. This analysis aims to evaluate the risk and potential returns of investing in these two different asset classes.
 
 # Resources
-The dataset we used is from Kaggle and Yahoo Finance. 
-The historical cryptocurrency data from Kaggle includes: coin name, date, price, total volume, marketcap. 
-https://www.kaggle.com/datasets/sudalairajkumar/cryptocurrency-historical-prices-coingecko
+The dataset we used is from Yahoo Finance. 
 
-The same data was also scraped from yahoo finance -
 https://finance.yahoo.com/quote/%5EGSPC/history?p=%5EGSPC
 
-# update with achievements so far, check with Team? Maybe list each week by project phases?
+# Steps
+Source data (Yahoo Finance)
+Scraped/ cleaned/ created csv dataset and associated tables
+Query data using Python/Jupyter Notebook
+Push finalized CSV to AWS
+Used machine learning (regression model) for prediction
+Connect to cleaned CSVs using Tableau Public
+Analysis
+Visualization
+
+Dashboard
+We will utilize Tableau to present data in the form of graphs, charts, and a narrative format, allowing viewers to interact with the information by selecting options via drop-down menus within Tableau.
 
 
