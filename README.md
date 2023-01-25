@@ -38,16 +38,18 @@ The dataset we used is from Yahoo Finance.
 https://finance.yahoo.com/quote/%5EGSPC/history?p=%5EGSPC
 
 # Steps
-Source data (Yahoo Finance)
-Scraped/ cleaned/ created csv dataset and associated tables
-Query data using Python/Jupyter Notebook
-Push finalized CSV to AWS
-Used machine learning (regression model) for prediction
-Connect to cleaned CSVs using Tableau Public
-Analysis
-Visualization
+- Source data (Yahoo Finance)
+- Scraped/ cleaned/ created csv dataset and associated tables
+- Query data using Python/Jupyter Notebook
+- Push finalized CSV to AWS
+- Used machine learning (regression model) for prediction
+- Connect to cleaned CSVs using Tableau Public
+- Analysis
+- Visualization
 
-Dashboard
+# Dashboard
 We will utilize Tableau to present data in the form of graphs, charts, and a narrative format, allowing viewers to interact with the information by selecting options via drop-down menus within Tableau.
+
+<img width="596" alt="Screen Shot 2023-01-24 at 9 27 34 PM" src="https://user-images.githubusercontent.com/110873947/214473612-77d7185c-5ba4-40d2-a4d4-54289ff6b03c.png">
 
 
