@@ -52,4 +52,14 @@ We will utilize Tableau to present data in the form of graphs, charts, and a nar
 
 <img width="596" alt="Screen Shot 2023-01-24 at 9 27 34 PM" src="https://user-images.githubusercontent.com/110873947/214473612-77d7185c-5ba4-40d2-a4d4-54289ff6b03c.png">
 
+Some sample charts -
+
+<img width="713" alt="Visualization - Price and Volume" src="https://user-images.githubusercontent.com/110873947/214473894-026d6f71-0ead-4423-94ba-37216b903049.png">
+
+<img width="713" alt="Visualization - Volume and date" src="https://user-images.githubusercontent.com/110873947/214473909-ef109ee4-f32e-48e6-bdb4-a68806aab7f4.png">
+
+![Visualization - Growth](https://user-images.githubusercontent.com/110873947/214473948-a7879e32-8e32-4e23-93a0-49e555720aa9.png)
+
+![Visualization - Growth](https://user-images.githubusercontent.com/110873947/214473965-b2503097-e3bd-4b1d-b364-410d5be8e449.png)
+
 
