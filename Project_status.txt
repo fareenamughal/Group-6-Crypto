@@ -70,5 +70,5 @@ Actions -
 
 2023.01.25
 1. Regression model - ARIMA write up
-ARIMA - (https://www.investopedia.com/terms/a/autoregressive-integrated-moving-average-arima.asp)
-ARIMA:models detailed explanations (https://otexts.com/fpp2/arima.html)
+ARIMA - https://www.investopedia.com/terms/a/autoregressive-integrated-moving-average-arima.asp
+ARIMA:models detailed explanations - https://otexts.com/fpp2/arima.html
