@@ -53,7 +53,13 @@ Below are the links to the datasets we used, sourced from Yahoo Finance:
 
 ## Segment 1
 #### <ins>A description of the data</ins>  
-After extracting the each of the 5 crypto datasets from Yahoo Finance using Python, we appended a column called "Name" that contains the name of the coin/ETF. This step was necessary as we concatenated the datasets into one master file, keeping the S&P 500 data in a separate one. Here are some snapshots of our 2 datasets, as dataframes:  
+After extracting the each of the 5 crypto datasets from Yahoo Finance using Python, we appended a column called "Name" that contains the name of the coin/ETF. This step was necessary as we concatenated the datasets into one master file, keeping the S&P 500 data in a separate one. 
+
+ERD 
+
+![ERD](ERD/ERD.png) 
+
+Here are some snapshots of our 2 datasets, as dataframes:  
 
 1. Crypto Dataframe  
 ![Crypto Dataframe](Images/crypto_dataframe.PNG) 
