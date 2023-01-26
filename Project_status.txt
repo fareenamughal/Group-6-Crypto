@@ -72,3 +72,4 @@ Actions -
 1. Regression model - ARIMA write up
 ARIMA - https://www.investopedia.com/terms/a/autoregressive-integrated-moving-average-arima.asp
 ARIMA:models detailed explanations - https://otexts.com/fpp2/arima.html
+Tableau Desktop - How Predictive Modeling Functions Work in Tableau - https://help.tableau.com/current/pro/desktop/en-us/forecasting.htm
