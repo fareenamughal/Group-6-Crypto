@@ -67,3 +67,8 @@ Actions -
 2. Update "Images" folder with sample charts for Tableau dashboard - Fareena (completed)
 3. Clean and update Readme - Hitha (completed)
 4. Create review data in pgadmin - Kirti (completed)
+
+2023.01.25
+1. Regression model - ARIMA write up
+[ARIMA](https://www.investopedia.com/terms/a/autoregressive-integrated-moving-average-arima.asp)
+[ARIMA:models](https://otexts.com/fpp2/arima.html)
