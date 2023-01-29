@@ -54,3 +54,22 @@ Actions -
 
 Potential Summary Reflection:
 Our goal is to present to the end user the data that shows the differences between crypto and S&P500 in order for them to make an informed decision for their investments.
+
+2023.01.23
+
+Charted out design plan for Tableau dashboard.
+We will use regression model for data analysis and prediction.
+Decided to scrape data from Yahoo finance for all the datasets.
+
+Actions -
+
+1. Scrape all datasets from yahoo to keep same source for all data points - Emerset (completed)
+2. Update "Images" folder with sample charts for Tableau dashboard - Fareena (completed)
+3. Clean and update Readme - Hitha (completed)
+4. Create review data in pgadmin - Kirti (completed)
+
+2023.01.25
+1. Regression model - ARIMA write up
+2. ARIMA - https://www.investopedia.com/terms/a/autoregressive-integrated-moving-average-arima.asp
+3. ARIMA:models detailed explanations - https://otexts.com/fpp2/arima.html
+4. Tableau Desktop - How Predictive Modeling Functions Work in Tableau - https://help.tableau.com/current/pro/desktop/en-us/forecasting.htm

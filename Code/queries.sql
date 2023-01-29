@@ -1,11 +1,14 @@
---creating crypto table
+--creating the crypto table
 CREATE TABLE public.crypto_tbl
 (
     "Date" date,
     "Open" money,
+    "High" money,
+    "Low" money,
+    "Close" money,
+    "Adj_Close" money,
     "Volume" character varying(20),
-    "Market_Capitalization" money,
-    "Coin_Name" character varying(20)
+    "Name" character varying(20)
 )
 WITH (
     OIDS = FALSE
@@ -14,7 +17,8 @@ WITH (
 ALTER TABLE IF EXISTS public.crypto_tbl
     OWNER to postgres;
 
---creating sp_500 table
+
+--creating the s&p500 table
 CREATE TABLE public.sp500_tbl
 (
     "Date" date,
@@ -24,6 +28,7 @@ CREATE TABLE public.sp500_tbl
     "Close" money,
     "Adj_Close" money,
     "Volume" character varying(20),
+    "Name" character varying(20),
     PRIMARY KEY ("Date")
 )
 WITH (
@@ -33,6 +38,8 @@ WITH (
 ALTER TABLE IF EXISTS public.sp500_tbl
     OWNER to postgres;
 
---OTHER QUERIES
-SELECT * FROM sp500_tbl;
-SELECT * FROM crypto_tbl;
+
+--display tables' data
+SELECT * FROM crypto_tbl
+SELECT * FROM sp500_tbl
+
