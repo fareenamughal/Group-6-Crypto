@@ -113,5 +113,5 @@ https://prod-ca-a.online.tableau.com/t/group6crypto/views/Group-6-Crypto/Stock--
 
 [S&P500 and Crypto Comparison - Tableau workbook](https://prod-ca-a.online.tableau.com/t/group6crypto/views/Group-6-Crypto/Stock--Crypto-Analysis/9174ae65-7ed2-4a9b-8553-8d3dc4b661be/9e487dcf-9d3c-49b7-8c14-bef45f0d14de)
 
-
+The two datasets that have been useed i.e. sp500_data_cleaned and crypto_data have also been uploaded and saved as live connections in Tableau Public. 
 
