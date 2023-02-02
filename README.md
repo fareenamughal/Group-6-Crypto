@@ -117,5 +117,50 @@ Our model did not require us to generate a confusion matrix or an accuracy score
 
 ![btc-actual-prediction](Images/btc-model-precision.PNG) 
 
+#### <ins>Tableau Visualizations</ins>  
+After uploading our datasets on Tableau Cloud, we started adding some informative charts to add to our story-telling element of our project. 
+
+[Here is the link to our Tableau Workbook](https://prod-ca-a.online.tableau.com/#/site/group6crypto/workbooks/80230/views)
+_please reach out to one of our group members if the link does not work for you_  
+
+Below are some screenshots from our version 1 of our Tableau visualization:
+
+![viz-1](https://github.com/fareenamughal/Group-6-Crypto/blob/b34e68b88b172ca17d27065bfd92686a0d0bd3e5/Images/Visualization%201%20-%20Closing%20Price%20per%20Quarter.png)
+
+![viz-2](https://github.com/fareenamughal/Group-6-Crypto/blob/b34e68b88b172ca17d27065bfd92686a0d0bd3e5/Images/Visualization%202%20-%20Closing%20Price%20and%20Volume.png)
+
+![viz-3](https://github.com/fareenamughal/Group-6-Crypto/blob/b34e68b88b172ca17d27065bfd92686a0d0bd3e5/Images/Visualization%203%20-%20Price%20Prediction.png)
+
+![viz-4](https://github.com/fareenamughal/Group-6-Crypto/blob/b34e68b88b172ca17d27065bfd92686a0d0bd3e5/Images/Visualization%204%20-%20Volume%20Prediction.png)
+
+![viz-5](https://github.com/fareenamughal/Group-6-Crypto/blob/b34e68b88b172ca17d27065bfd92686a0d0bd3e5/Images/Visualization%205%20-%20Growth.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
