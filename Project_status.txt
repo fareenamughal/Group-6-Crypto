@@ -73,3 +73,19 @@ Actions -
 2. ARIMA - https://www.investopedia.com/terms/a/autoregressive-integrated-moving-average-arima.asp
 3. ARIMA:models detailed explanations - https://otexts.com/fpp2/arima.html
 4. Tableau Desktop - How Predictive Modeling Functions Work in Tableau - https://help.tableau.com/current/pro/desktop/en-us/forecasting.htm
+
+
+2023.01.30
+1. Went over Machine learning model Python code and got recommendations from Hassan to add a for-loop for a better time series model
+2. Made sure everyone has Tableau Desktop or how to get it
+3. Got trial version of Tableau Cloud to store our datasets
+4. Hassan and Imran (replacement TA) advised that we do not need a confusion matrix nor an accuracy score since we used the root mean squared error to determine precision of ML model
+
+
+
+Actions - 
+1. Emerset, Hitha & Kirti to work on implementing the for loop in the code
+2. Team to familiarize ourselves with Tableau Cloud- import datasets and start creating visualizations
+3. Team to come back Wednesday with some starter visualizations done
+
+

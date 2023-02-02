@@ -100,3 +100,18 @@ Following are some sample charts with metrics and visualizations we aim to show 
 ![Visualization - Growth](https://user-images.githubusercontent.com/110873947/214473965-b2503097-e3bd-4b1d-b364-410d5be8e449.png)
 
 
+https://prod-ca-a.online.tableau.com/t/group6crypto/views/Group-6-Crypto/Stock--Crypto-Analysis
+
+## Segment 2
+
+### Requirements - Project status, images, descriptions, and results (20 points)
+                 - At least eight total commits per team member (20 points)
+                 - A machine learning model, including a confusion matrix and accuracy score (20 points)
+                 - Database that stores data for the project with at least two tables or collections (20 points)
+
+
+
+[S&P500 and Crypto Comparison - Tableau workbook](https://prod-ca-a.online.tableau.com/t/group6crypto/views/Group-6-Crypto/Stock--Crypto-Analysis/9174ae65-7ed2-4a9b-8553-8d3dc4b661be/9e487dcf-9d3c-49b7-8c14-bef45f0d14de)
+
+The two datasets that have been useed i.e. sp500_data_cleaned and crypto_data have also been uploaded and saved as live connections in Tableau Public. 
+
