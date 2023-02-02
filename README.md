@@ -106,7 +106,7 @@ Following are some sample charts with metrics and visualizations we aim to show 
 ## Segment 2
 
 #### <ins>Working end to end Machine Learning Analysis</ins>  
-After some exploratory work with the dataset, we decided to use the [ARIMA Machine Learning model on our datasets to predict future prices](https://github.com/fareenamughal/Group-6-Crypto/tree/main/Machine%20learning). Our team made use of both Jupyter notebook and Google Colab for this project, for we use different operating systems and to focus more on the Machine Learning part of the project, than debugging libraries and different code syntaxes. We also decided to use a larger dataset with data since September 2014 for more datapoints for our model to train itself on.  
+After some exploratory work with the dataset, we decided to use the [ARIMA Machine Learning model on our datasets to predict future prices](https://github.com/fareenamughal/Group-6-Crypto/tree/main/Code/Machine%20learning). Our team made use of both Jupyter notebook and Google Colab for this project, for we use different operating systems and to focus more on the Machine Learning part of the project, than debugging libraries and different code syntaxes. We also decided to use a larger dataset with data since September 2014 for more datapoints for our model to train itself on.  
 
 Applying the ARIMA model on each dataset, we could make predictions on the price for the following day, while splitting our training and test set to a 80/20 ratio. Below is an example of the training vs testing datasets for BTC:  
 
