@@ -3,9 +3,12 @@ Use machine learning, Python, PostgreSQL and Tableau to analyze and predict top 
 
 *Team - Fareena Mughal, Emerset Farquharson, Kirti Henry, Hitha Das*
 
-## Project Dashboard -TBD
+## Project Dashboard
+[Here is the link to our Tableau Workbook](https://prod-ca-a.online.tableau.com/#/site/group6crypto/workbooks/80230/views)
+_-please reach out to one of our group members if the link does not work for you._  
 
-## Project Links - TBD (future state - will include link to Tableau, slides, presentations)
+## Project Links - In Progress as we add more for segment #3
+* [Tableau Workbook / WIP Presentation](https://prod-ca-a.online.tableau.com/#/site/group6crypto/workbooks/80230/views)
 
 
 ## Overview 
@@ -120,8 +123,8 @@ Our model did not require us to generate a confusion matrix or an accuracy score
 #### <ins>Tableau Visualizations</ins>  
 After uploading our datasets on Tableau Cloud, we started adding some informative charts to add to our story-telling element of our project. 
 
-[Here is the link to our Tableau Workbook](https://prod-ca-a.online.tableau.com/#/site/group6crypto/workbooks/80230/views)
-_please reach out to one of our group members if the link does not work for you_  
+[Here is the link again to our Tableau Workbook](https://prod-ca-a.online.tableau.com/#/site/group6crypto/workbooks/80230/views)
+_please reach out to one of our group members if the link does not work for you._  
 
 Below are some screenshots from our version 1 of our Tableau visualization:
 
