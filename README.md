@@ -3,9 +3,12 @@ Use machine learning, Python, PostgreSQL and Tableau to analyze and predict top 
 
 *Team - Fareena Mughal, Emerset Farquharson, Kirti Henry, Hitha Das*
 
-## Project Dashboard -TBD
+## Project Dashboard
+[Here is the link to our Tableau Workbook](https://prod-ca-a.online.tableau.com/#/site/group6crypto/workbooks/80230/views)
+_-please reach out to one of our group members if the link does not work for you._  
 
-## Project Links - TBD (future state - will include link to Tableau, slides, presentations)
+## Project Links - In Progress as we add more for segment #3
+* [Tableau Workbook / WIP Presentation](https://prod-ca-a.online.tableau.com/#/site/group6crypto/workbooks/80230/views)
 
 
 ## Overview 
@@ -25,10 +28,10 @@ The 5 S&P 500 used in the analysis are -
 4. Tesla, Inc. (TSLA)
 5. Nvidia Corp. (NVDA)
 
-We will use historical data on the prices of the top 5 cryptocurrencies and the top 5 companies in the S&P 500 to calculate their volatility. Standard deviation will be used as a measure of volatility and compare the results between the two asset classes. We will also use charts to visually represent the volatility of each asset over time.
+We will use historical data on the prices of the top 5 cryptocurrencies and the top 5 companies in the S&P 500 to predict the future prices and volatility for the following days. Standard deviation will be used as a measure of volatility and compare the results between the two asset classes. We will also use charts to visually represent the volatility and the price predictions of each asset over time.
 
 ## Purpose of the Project
-The purpose of this analysis is to compare the performance of the top 5 cryptocurrencies with that of the top 5 companies in the S&P 500, specifically focusing on their volatility. Cryptocurrencies have gained popularity in recent years as an alternative investment option to traditional stocks. This analysis aims to evaluate the risk and potential returns of investing in these two different asset classes, using measures like volatility and machine learning predictive models.
+The purpose of this analysis is to predict future prices of the top 5 cryptocurrencies and thatt of the top 5 companies in the S&P500 using a Machine Learning model, as well as showing volalitity . Cryptocurrencies have gained popularity in recent years as an alternative investment option to traditional stocks. This analysis aims to evaluate the risk and potential returns of investing in these two different asset classes.
 
 ## Resources
 Below are the links to the datasets we used, sourced from Yahoo Finance:  
@@ -44,11 +47,11 @@ Below are the links to the datasets we used, sourced from Yahoo Finance:
 - Source data (Yahoo Finance)
 - Scraped/ cleaned/ created csv dataset and associated tables
 - Query data using Python/Jupyter Notebook
-- Push finalized CSV to AWS
-- Used machine learning (regression model) for prediction
-- Connect to cleaned CSVs using Tableau Public
+- Store the data on a database (we used PostgreSQL & Tableau Cloud)
+- Used machine learning (time series regression model) for prediction
+- Connect to cleaned CSVs using Tableau Desktop and published on Tableau Public
 - Analysis
-- Visualization
+- Visualization & story-telling
 
 
 ## Segment 1
@@ -81,11 +84,11 @@ We exported both dataframes as CSV files, that we used pgAdmin to store the data
 
 #### <ins>Questions we plan to answer with the project</ins>  
 1. Using a calculated measurement like Volatility, we want to show how high or low risk the stocks are.
-2. Is there any correlation between the stock market and cryptocurrencies?
+2. Is there any correlation based on the visualizations made between the stock market and cryptocurrencies?
 3. Using a regression machine learning model, we want to predict the prices of crypto or stock in the next X time.
 
 ## Dashboard
-We will utilize Tableau to present data in the form of graphs, charts, and a narrative format, allowing viewers to interact with the information by selecting options via drop-down menus within Tableau.
+We will utilize Tableau  to present data in the form of graphs, charts, and a narrative format, with different interactive functionality to the users to filter through.
 
 <img width="596" alt="Screen Shot 2023-01-24 at 9 27 34 PM" src="https://user-images.githubusercontent.com/110873947/214473612-77d7185c-5ba4-40d2-a4d4-54289ff6b03c.png">
 
@@ -100,18 +103,67 @@ Following are some sample charts with metrics and visualizations we aim to show 
 ![Visualization - Growth](https://user-images.githubusercontent.com/110873947/214473965-b2503097-e3bd-4b1d-b364-410d5be8e449.png)
 
 
-https://prod-ca-a.online.tableau.com/t/group6crypto/views/Group-6-Crypto/Stock--Crypto-Analysis
-
 ## Segment 2
 
-### Requirements - Project status, images, descriptions, and results (20 points)
-                 - At least eight total commits per team member (20 points)
-                 - A machine learning model, including a confusion matrix and accuracy score (20 points)
-                 - Database that stores data for the project with at least two tables or collections (20 points)
+#### <ins>Working end to end Machine Learning Analysis</ins>  
+After some exploratory work with the dataset, we decided to use the [ARIMA Machine Learning model on our datasets to predict future prices](https://github.com/fareenamughal/Group-6-Crypto/tree/main/Code/Machine%20learning). Our team made use of both Jupyter notebook and Google Colab for this project, for we use different operating systems and to focus more on the Machine Learning part of the project, than debugging libraries and different code syntaxes. We also decided to use a larger dataset with data since September 2014 for more datapoints for our model to train itself on.  
+
+Applying the ARIMA model on each dataset, we could make predictions on the price for the following day, while splitting our training and test set to a 80/20 ratio. Below is an example of the training vs testing datasets for BTC:  
+
+![btc-train-test](Images/BTC-test-train-chart.PNG)  
+
+We walked through the code and ran it through Hassan, our professor, to make sure that we were not overlapping data in our price prediction and only using previous data to make the next guess. Hassan agreed with our approach, and tested it as well; our model ran with an average of 97.2% accuracy.  
+
+![btc-actual-prediction](Images/BTC-actual-and-prediction.PNG)  
+
+Our model did not require us to generate a confusion matrix or an accuracy score - to which Hassan and our replacement TA, Imran, confirmed. To test precision of our model, we used the Mean Squared error and the Mean Absolute Percentage Error (MAPE), as shown below.  
+
+![btc-actual-prediction](Images/btc-model-precision.PNG) 
+
+#### <ins>Tableau Visualizations</ins>  
+After uploading our datasets on Tableau Cloud, we started adding some informative charts to add to our story-telling element of our project. 
+
+[Here is the link again to our Tableau Workbook](https://prod-ca-a.online.tableau.com/#/site/group6crypto/workbooks/80230/views)
+_please reach out to one of our group members if the link does not work for you._  
+
+Below are some screenshots from our version 1 of our Tableau visualization:
+
+![viz-1](https://github.com/fareenamughal/Group-6-Crypto/blob/b34e68b88b172ca17d27065bfd92686a0d0bd3e5/Images/Visualization%201%20-%20Closing%20Price%20per%20Quarter.png)
+
+![viz-2](https://github.com/fareenamughal/Group-6-Crypto/blob/b34e68b88b172ca17d27065bfd92686a0d0bd3e5/Images/Visualization%202%20-%20Closing%20Price%20and%20Volume.png)
+
+![viz-3](https://github.com/fareenamughal/Group-6-Crypto/blob/b34e68b88b172ca17d27065bfd92686a0d0bd3e5/Images/Visualization%203%20-%20Price%20Prediction.png)
+
+![viz-4](https://github.com/fareenamughal/Group-6-Crypto/blob/b34e68b88b172ca17d27065bfd92686a0d0bd3e5/Images/Visualization%204%20-%20Volume%20Prediction.png)
+
+![viz-5](https://github.com/fareenamughal/Group-6-Crypto/blob/b34e68b88b172ca17d27065bfd92686a0d0bd3e5/Images/Visualization%205%20-%20Growth.png)
 
 
 
-[S&P500 and Crypto Comparison - Tableau workbook](https://prod-ca-a.online.tableau.com/t/group6crypto/views/Group-6-Crypto/Stock--Crypto-Analysis/9174ae65-7ed2-4a9b-8553-8d3dc4b661be/9e487dcf-9d3c-49b7-8c14-bef45f0d14de)
 
-The two datasets that have been useed i.e. sp500_data_cleaned and crypto_data have also been uploaded and saved as live connections in Tableau Public. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
