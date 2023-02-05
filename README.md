@@ -138,11 +138,11 @@ Below are some screenshots from our version 1 of our Tableau visualization:
 
 ![viz-5](https://github.com/fareenamughal/Group-6-Crypto/blob/b34e68b88b172ca17d27065bfd92686a0d0bd3e5/Images/Visualization%205%20-%20Growth.png)
 
+## Segment 3
 
+#### <ins>Tableau Visualizations</ins>  
 
-
-
-
+[Here is the link again to our Tableau Workbook](https://public.tableau.com/views/Group-6-Crypto-rev1/Group-6-Crypto_1?:language=en-US&:display_count=n&:origin=viz_share_link)
 
 
 
