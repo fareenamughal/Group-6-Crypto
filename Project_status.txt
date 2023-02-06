@@ -81,11 +81,20 @@ Actions -
 3. Got trial version of Tableau Cloud to store our datasets
 4. Hassan and Imran (replacement TA) advised that we do not need a confusion matrix nor an accuracy score since we used the root mean squared error to determine precision of ML model
 
-
-
 Actions - 
 1. Emerset, Hitha & Kirti to work on implementing the for loop in the code
 2. Team to familiarize ourselves with Tableau Cloud- import datasets and start creating visualizations
 3. Team to come back Wednesday with some starter visualizations done
 
+
+
+2023.02.01
+1. Went over visualizations created & crafted initial stories based on charts made
+2. Hitha applied ARIMA Machine learning on the Top 5 S&P stocks & S&P500 Top 5 stocks - added all csvs, including CSVs that contains the predictions data on main repo for final viz
+3. Made sure charts reflect our segment 1 questions that we needed to ask and ideal presentation charts
+
+Actions - 
+1. Kirti or team to implement LSTM model as a "better" model to the ARIMA
+2. Hitha or team to try implement ML model on volatility
+3. Team to think of what the final presentation will look like (to discuss on following monday)
 
