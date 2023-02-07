@@ -42,6 +42,23 @@ Below are the links to the datasets we used, sourced from Yahoo Finance:
 [DOGECOIN](https://finance.yahoo.com/quote/DOGE-USD?p=DOGE-USD&.tsrc=fin-srch) | 
 [ETH](https://finance.yahoo.com/quote/ETH-USD?p=ETH-USD&.tsrc=fin-srch)
 
+## Tool used in our project
+In our group project we are using the following technology and tools:
+
+- Data Preprocessing:
+  Google Colab, Jupyter Notebook
+  Python
+
+- Data Storage:
+  Postgres
+
+- Machine Learning:
+  ARIMA, TensorFlow, Keras
+  Bidirectional Long Short-Term Memory Model
+
+- Presentation:
+  Tableau
+  Google Slides
 
 ## Steps
 - Source data (Yahoo Finance)
