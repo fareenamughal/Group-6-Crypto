@@ -54,7 +54,7 @@ In our group project we are using the following technology and tools:
 
 - Machine Learning:
   ARIMA, TensorFlow, Keras
-  Bidirectional Long Short-Term Memory Model
+  Long Short-Term Memory Model
 
 - Presentation:
   Tableau
