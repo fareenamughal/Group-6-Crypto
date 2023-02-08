@@ -119,8 +119,15 @@ Applying the ARIMA model on each dataset, we could make predictions on the price
 
 ![btc-actual-prediction](Images/BTC-actual-and-prediction.PNG)  
 
-## LSTM MACHINE LEARNING MODEL
+We also used the ARIMA model to predict Volatility of our stocks.
+[arima-volatility-1](Images/ARIMA-volatility-1.PNG)
+[arima-volatility-2](Images/ARIMA-volatility-2.PNG)
 
+## LSTM MACHINE LEARNING MODEL
+Hoping for an improved model, we decided to use the LSTM Deep Learning machine learning on our dataset for the same purpose; predicting future close prices. We used the train-test-split method, trained the model to predict the close prices for the next 30 days.
+
+[lstm-viz1](Images/Visualization-Final-LSTM-AMZ.PNG)
+[lstm-viz2](Images/Visualization-Final-LSTM-BNB.PNG)
 
 ## Results
 Using the Mean Absolute Percentage Error (MAPE), our ARIMA model precision averages to about 97.87% for the top 5 S&P500 stocks, and 96.98% for the top cryptocurrencies.
