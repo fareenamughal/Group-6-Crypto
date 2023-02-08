@@ -135,8 +135,8 @@ Using the Mean Absolute Percentage Error (MAPE), our ARIMA model precision avera
 ![btc-actual-prediction](Images/btc-model-precision.PNG) 
 
 Using the R2 score, our LSTM model precision averages to only about 13.38% on the top 5 S&P500 stocks and 91.28% on the top 5 cryptocurrencies.  
-R2-score calculation for the AMZN stock:
-![amz-stock-r2](Images/r2-score.png)
+R2-score calculation for the AMZN stock:  
+![amz-stock-r2](Images/r2-score.PNG)
 
 RMSE was also used as a measurement to check for deviation of predicted prices to the actual prices. We noted that in both models that the predicted prices were close to the actual prices.  
 
