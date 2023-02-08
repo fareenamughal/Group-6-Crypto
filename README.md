@@ -134,6 +134,14 @@ Using the Mean Absolute Percentage Error (MAPE), our ARIMA model precision avera
 
 ![btc-actual-prediction](Images/btc-model-precision.PNG) 
 
+Using the R2 score, our LSTM model precision averages to only about 13.38% on the top 5 S&P500 stocks and 91.28% on the top 5 cryptocurrencies.  
+R2-score calculation for the AMZN stock:
+![amz-stock-r2](Images/r2-score.png)
+
+RMSE was also used as a measurement to check for deviation of predicted prices to the actual prices. We noted that in both models that the predicted prices were close to the actual prices.  
+
+Finally, <ins>our winning model is the ARIMA model</ins> for it has a higher precision prediction percentage for all the datasets, as it uses a moving average that predicts the next day price, and in the next iteration, the models takes into account the previous one day that was predicted to forecast the next day. The ARIMA model also filters out high frequency noises, and produced lower error values than the LSTM model.
+
 #### <ins>Tableau Visualizations</ins>  
 We started adding some informative charts to add to our story-telling element of our project. [Link to our Tableau Visualization](https://public.tableau.com/app/profile/fareena.mughal/viz/Group-6-Crypto-rev1/Group-6-Crypto_1)
 
