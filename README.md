@@ -120,8 +120,8 @@ Applying the ARIMA model on each dataset, we could make predictions on the price
 ![btc-actual-prediction](Images/BTC-actual-and-prediction.PNG)  
 
 We also used the ARIMA model to predict Volatility of our stocks.
-[arima-volatility-1](Images/ARIMA-volatility-1.PNG)
-[arima-volatility-2](Images/ARIMA-volatility-2.PNG)
+[arima-volatility-1](Images/ARIMA-volatility-1.png)
+[arima-volatility-2](Images/ARIMA-volatility-2.png)
 
 ## LSTM MACHINE LEARNING MODEL
 Hoping for an improved model, we decided to use the LSTM Deep Learning machine learning on our dataset for the same purpose; predicting future close prices. We used the train-test-split method, trained the model to predict the close prices for the next 30 days.
