@@ -3,13 +3,9 @@ Use machine learning, Python, PostgreSQL and Tableau to analyze and predict top 
 
 *Team - Fareena Mughal, Emerset Farquharson, Kirti Henry, Hitha Das*
 
-## Project Dashboard
-[Here is the link to our Tableau Workbook](https://prod-ca-a.online.tableau.com/#/site/group6crypto/workbooks/80230/views)
-_-please reach out to one of our group members if the link does not work for you._  
-
-## Project Links - In Progress as we add more for segment #3
-* [Tableau Workbook / WIP Presentation](https://prod-ca-a.online.tableau.com/#/site/group6crypto/workbooks/80230/views)
-
+## Links to Project Dashboard & Presentation
+[Here is the link to our Tableau Workbook](https://public.tableau.com/app/profile/fareena.mughal/viz/Group-6-Crypto-rev1/Group-6-Crypto_1)  
+[Here is the link to our Final Presentation](https://docs.google.com/presentation/d/1yCBFztSsGj-3OpqkgikMw2RJheAqAW3HfePbhYNX_KQ/edit?usp=sharing)
 
 ## Overview 
 Cryptocurrency, specifically Bitcoin, has seen a tremendous amount of growth in recent years, with many investors turning to it as an alternative to traditional investments like stocks. In this project, we will compare the performance of top 5 S&P 500, a stock market index that represents the performance of the top 500 publicly traded companies in the United States, to that of top 5 cryptocurrencies. 
@@ -45,20 +41,10 @@ Below are the links to the datasets we used, sourced from Yahoo Finance:
 ## Tool used in our project
 In our group project we are using the following technology and tools:
 
-- Data Preprocessing:
-  Google Colab, Jupyter Notebook
-  Python
-
-- Data Storage:
-  PostgreSQL
-
-- Machine Learning:
-  ARIMA, TensorFlow, Keras
-  Long Short-Term Memory Model
-
-- Presentation:
-  Tableau
-  Google Slides
+* **Data Preprocessing**: Google Colab, Jupyter Notebook, Python
+* **Data Storage**: PostgreSQL
+* **Machine Learning**: ARIMA, TensorFlow, Keras, Long Short-Term Memory Model (LSTM)
+* **Presentation**: Tableau, Google Slides, Quick DBD
 
 ## Steps
 - Source data (Yahoo Finance)
@@ -123,25 +109,20 @@ Following are some sample charts with metrics and visualizations we aim to show 
 ## Segment 2
 
 #### <ins>Working end to end Machine Learning Analysis</ins>  
-After some exploratory work with the dataset, we decided to use the [ARIMA Machine Learning model on our datasets to predict future prices](https://github.com/fareenamughal/Group-6-Crypto/tree/main/Code/Machine%20learning). Our team made use of both Jupyter notebook and Google Colab for this project, for we use different operating systems and to focus more on the Machine Learning part of the project, than debugging libraries and different code syntaxes. We also decided to use a larger dataset with data since September 2014 for more datapoints for our model to train itself on.  
+After some exploratory work with the dataset, we decided to use the [ARIMA Machine Learning model on our datasets to predict future prices](https://github.com/fareenamughal/Group-6-Crypto/tree/main/Code/Machine%20learning). Our team made use of both Jupyter notebook and Google Colab for this project. We also decided to use a larger dataset with data since September 2014 for more datapoints for our model to train itself on.  
 
 Applying the ARIMA model on each dataset, we could make predictions on the price for the following day, while splitting our training and test set to a 80/20 ratio. Below is an example of the training vs testing datasets for BTC:  
 
 ![btc-train-test](Images/BTC-test-train-chart.PNG)  
 
-We walked through the code and ran it through Hassan, our professor, to make sure that we were not overlapping data in our price prediction and only using previous data to make the next guess. Hassan agreed with our approach, and tested it as well; our model ran with an average of 97.2% accuracy.  
-
 ![btc-actual-prediction](Images/BTC-actual-and-prediction.PNG)  
 
-Our model did not require us to generate a confusion matrix or an accuracy score - to which Hassan and our replacement TA, Imran, confirmed. To test precision of our model, we used the Mean Squared error and the Mean Absolute Percentage Error (MAPE), as shown below.  
+Using the Mean Absolute Percentage Error (MAPE), our ARIMA model precision averages to about 97.87% for the top 5 S&P500 stocks, and 96.98% for the top cryptocurrencies.
 
 ![btc-actual-prediction](Images/btc-model-precision.PNG) 
 
 #### <ins>Tableau Visualizations</ins>  
-After uploading our datasets on Tableau Cloud, we started adding some informative charts to add to our story-telling element of our project. 
-
-[Here is the link again to our Tableau Workbook](https://prod-ca-a.online.tableau.com/#/site/group6crypto/workbooks/80230/views)
-_please reach out to one of our group members if the link does not work for you._  
+We started adding some informative charts to add to our story-telling element of our project. [Link to our Tableau Visualization](https://public.tableau.com/app/profile/fareena.mughal/viz/Group-6-Crypto-rev1/Group-6-Crypto_1)
 
 Below are some screenshots from our version 1 of our Tableau visualization:
 
@@ -155,11 +136,9 @@ Below are some screenshots from our version 1 of our Tableau visualization:
 
 ![viz-5](https://github.com/fareenamughal/Group-6-Crypto/blob/b34e68b88b172ca17d27065bfd92686a0d0bd3e5/Images/Visualization%205%20-%20Growth.png)
 
+
 ## Segment 3
 
-#### <ins>Tableau Visualizations</ins>  
-
-[Here is the link again to our Tableau Workbook](https://public.tableau.com/views/Group-6-Crypto-rev1/Group-6-Crypto_1?:language=en-US&:display_count=n&:origin=viz_share_link)
 
 
 
