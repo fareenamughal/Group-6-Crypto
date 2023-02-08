@@ -109,6 +109,8 @@ Following are some sample charts with metrics and visualizations we aim to show 
 ## Segment 2
 
 #### <ins>Working end to end Machine Learning Analysis</ins>  
+
+## ARIMA MACHINE LEARNING MODEL
 After some exploratory work with the dataset, we decided to use the [ARIMA Machine Learning model on our datasets to predict future prices](https://github.com/fareenamughal/Group-6-Crypto/tree/main/Code/Machine%20learning). Our team made use of both Jupyter notebook and Google Colab for this project. We also decided to use a larger dataset with data since September 2014 for more datapoints for our model to train itself on.  
 
 Applying the ARIMA model on each dataset, we could make predictions on the price for the following day, while splitting our training and test set to a 80/20 ratio. Below is an example of the training vs testing datasets for BTC:  
@@ -117,6 +119,10 @@ Applying the ARIMA model on each dataset, we could make predictions on the price
 
 ![btc-actual-prediction](Images/BTC-actual-and-prediction.PNG)  
 
+## LSTM MACHINE LEARNING MODEL
+
+
+## Results
 Using the Mean Absolute Percentage Error (MAPE), our ARIMA model precision averages to about 97.87% for the top 5 S&P500 stocks, and 96.98% for the top cryptocurrencies.
 
 ![btc-actual-prediction](Images/btc-model-precision.PNG) 
@@ -142,22 +148,38 @@ In segment 3, we focused on building our final presentation content and visualiz
 
 Following are some screenshots from the final version of our [Tableau workbook](https://public.tableau.com/app/profile/fareena.mughal/viz/Group-6-Crypto-rev1/Group-6-Crypto_1); each dashboard contains a story based on the charts, detailing our observations on the dataset. Also added are user functionalities like filtering options and charts information overlay.  
 
+![final-viz-closing-price](Images/Visualization-Final-Closing_Price.PNG)
+![final-viz-predicted-price-w-overlay](Images/Visualization-Final_Price_Prediction_w_overlay.PNG)
 
+#### <ins>Alternatives we could have considered in this project</ins>  
+Our Machine Learning models does not take independent external factors in consideration like the news e.g. Ukraine/Russia war, the Government covid aid; nor does it take into account internal factors like seasonality.
 
-#### <ins>Recommendations for a future analysis</ins>  
+#### <ins>Potential improvements for future work</ins>
+* Analyse and visualize pre and post covid data
+* Develop custom portfolio prediction templates
+* Automating alerts for significant changes
+* Provide insights for investment decisions, based on individual risk profiles
+* Incorporating volatility as a key factor in risk assessments
 
+## References
+* [Kaggle Datasets](https://www.kaggle.com/datasets/sudalairajkumar/cryptocurrency-historical-prices-coingecko)
+* [Yahoo Finance](https://ca.finance.yahoo.com/)
+* ARIMA Machine Learning Model
+  * [Link 1](https://www.investopedia.com/terms/a/autoregressive-integrated-moving-average-arima.asp#:~:text=An%20autoregressive%20integrated%20moving%20average%2C%20or%20ARIMA%2C%20is%20a%20statistical,values%20based%20on%20past%20values.)
+  * [Link 2](https://otexts.com/fpp2/arima.html)
+  * [Link 3](https://machinelearningmastery.com/arima-for-time-series-forecasting-with-python/)
+  * [Link 4](https://www.oreilly.com/library/view/machine-learning-for/9781492085249/ch04.html)
+  * [Link 5](https://www.investopedia.com/terms/v/volatility.asp)
+  * [Link 6](https://www.learnpythonwithrune.org/calculate-the-volatility-of-historic-stock-prices-with-pandas-and-python/)
+* LSTM Machine Learning Model
+  * [Link 1](https://towardsdatascience.com/cryptocurrency-price-prediction-using-lstms-tensorflow-for-hackers-part-iii-264fcdbccd3f)
+  * [Link 2](https://medium.com/geekculture/lstm-for-bitcoin-prediction-in-python-6e2ea7b1e4e4)
+  * [Link 3](https://www.kaggle.com/code/meetnagadia/bitcoin-price-prediction-using-lstm)
+  * [Link 4](https://www.analyticsvidhya.com/blog/2021/05/bitcoin-price-prediction-using-recurrent-neural-networks-and-lstm/)
+  * [Link 5](https://machinelearningmastery.com/lstms-with-python/#:~:text=The%20Long%20Short%2DTerm%20Memory%2C%20or%20LSTM%2C%20network%20is,of%20loops%20to%20the%20architecture.)
 
-
-
-
-
-
-
-
-
-
-
-
+## Link to Final Presentation
+[Follow this link](https://docs.google.com/presentation/d/1yCBFztSsGj-3OpqkgikMw2RJheAqAW3HfePbhYNX_KQ/edit?usp=sharing) to view our final presentation on Google Slides.
 
 
 
