@@ -138,7 +138,13 @@ Below are some screenshots from our version 1 of our Tableau visualization:
 
 
 ## Segment 3
+In segment 3, we focused on building our final presentation content and visualization.  
 
+Following are some screenshots from the final version of our [Tableau workbook](https://public.tableau.com/app/profile/fareena.mughal/viz/Group-6-Crypto-rev1/Group-6-Crypto_1); each dashboard contains a story based on the charts, detailing our observations on the dataset. Also added are user functionalities like filtering options and charts information overlay.  
+
+
+
+#### <ins>Recommendations for a future analysis</ins>  
 
 
 
